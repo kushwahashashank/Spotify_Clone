@@ -1,0 +1,29 @@
+
+.sidebar{
+    display: flex;
+    height: 130vh;
+    flex: 0.17;
+    flex-direction: column;
+    background-color: rgb(0,0,0);
+}
+.sidebar__logo{
+   object-fit: contain;
+   height: 4rem;
+   width: auto;
+   margin-top: 0.7rem;
+   margin-right: 4rem; 
+   margin-bottom:0.8rem; 
+}
+.sidebar > hr{
+    width:80%;
+    margin: 1rem auto;
+    border:0.02rem solid rgb(32,32,32);
+} 
+.sidebar__title{
+    color: gray;
+    padding-left: 1.5rem;
+    font-size: small;
+}
+.sidebar__title:hover{
+    color: white;
+}
