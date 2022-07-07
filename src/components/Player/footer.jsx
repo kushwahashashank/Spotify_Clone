@@ -6,7 +6,7 @@ import {FiRepeat} from "react-icons/fi"
 // import { Grid} from "@material-ui/core";
 import {TbPlaylist} from "react-icons/tb";
 import {BsFillVolumeDownFill} from "react-icons/bs";
-import img from "./download.jpg"
+import img from "./download.jpeg"
 
 function Footer({track}) {
   const [volume, setVolume] = useState(1)
